@@ -1,0 +1,1143 @@
+
+
+
+
+
+.nC1{
+  top: 23px;
+  left: 50px;
+  width: 45px;
+  height: 22px;
+  margin-left: 8px;
+  /* UI Properties */
+  text-align: left;
+  font: normal normal bold 15px/22px Brandon Grotesque;
+  letter-spacing: 1.5px;
+  color: #000000;
+  text-transform: uppercase;
+  opacity: 1;
+}
+
+.nC2{
+  white-space:nowrap;
+  top: 23px;
+  left: 135px;
+  width: 87px;
+  height: 22px;
+  text-align: left;
+  font: normal normal bold 15px/22px Brandon Grotesque;
+  letter-spacing: 1.5px;
+  color: #000000;
+  text-transform: uppercase;
+  opacity: 1;
+}
+
+.nC3{
+  top: 23px;
+  left: 262px;
+  width: 62px;
+  height: 22px;
+  /* UI Properties */
+  text-align: left;
+  font: normal normal bold 15px/22px Brandon Grotesque;
+  letter-spacing: 1.5px;
+  color: #000000;
+  text-transform: uppercase;
+  opacity: 1;
+}
+
+.navLogo{
+  top: 19px;
+  left: 674px;
+  width: 92px;
+  height: 30px;
+  opacity: 1;
+  position: absolute;
+  top: 16px;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.nC4{
+  white-space:nowrap;
+  /* Layout Properties */
+  top: 23px;
+  left: 1198px;
+  width: 64px;
+  height: 22px;
+  /* UI Properties */
+  text-align: left;
+  font: normal normal bold 15px/22px Brandon Grotesque;
+  letter-spacing: 1.5px;
+  color: #000000;
+  text-transform: uppercase;
+  opacity: 1;
+}
+
+.nC5{
+  top: 33px;
+  left: 1202px;
+  width: 42px;
+  height: 22px;
+  /* UI Properties */
+  text-align: left;
+  font: normal normal bold 15px/22px Brandon Grotesque;
+  letter-spacing: 1.5px;
+  color: #000000;
+  text-transform: uppercase;
+  opacity: 1;
+}
+
+.nC6{
+  top: 48px;
+  left: 1556px;
+  width: 26px;
+  height: 22px;
+  margin-right: 8px;
+  background: transparent url('img/cart.png') 0% 0% no-repeat padding-box;
+  opacity: 1;
+  }
+
+  body { 
+    margin: 0 auto !important; 
+    float: none !important; 
+    overflow-x: hidden;
+  }
+
+  html{
+    font-size: 100%;
+  }
+
+
+  .toggle-btn{
+   cursor: pointer;
+   display: none;
+  }
+
+
+  .navigation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(255,255,255,0.8);
+    backdrop-filter: blur(5px);
+    position: sticky;
+    padding: 16px 48px;
+
+  }
+
+  .nav{
+    display: flex;
+    list-style: none;
+    gap: 48px;
+    margin-top: 8px;
+    text-transform: uppercase;
+  }
+
+  .nav a{
+    text-decoration: none;
+  }
+
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html{
+    scroll-behavior: smooth;
+  }
+  
+
+  #cartZero {
+    color: white;
+    background-color: #DDA74A;
+    width: 16px;
+    height: 16px;
+    margin-right: 8px;
+    margin-top: 6px;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 12.8px;
+    font-weight: 100;
+    position: absolute;
+    top: 12.8px;
+    right: 40px;
+  }
+
+  .paragraf1Btn{
+    display: inline-block;
+    text-transform: uppercase;
+    background-color: white;
+    font-weight: bold;
+    padding: 16px 32px 16px 32px;
+    margin-top: 16px;
+    border-radius: 8px;
+    text-decoration: none;
+    color:#004A4C;
+    /* UI Properties */
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border-radius: 6px;    transition: 0.35s;
+  }
+
+  .paragraf1 {
+    position: relative;
+    padding: 0 48px;
+    top: 10px
+  }
+  
+  .paragraf1 img{
+    max-width: 100%;
+  }
+
+ .paragraf1Text{
+   top: 50%;
+   left: 10%;
+   transform: translateY(-50%);
+   position: absolute;
+   max-width: 380px;
+  }
+
+  .paragraf1Text h1 {
+    top: 227px;
+    left: 110px;
+    width: 237px;
+    height: 129px;
+    margin-bottom: 16px;
+    /* UI Properties */
+    text-align: left;
+    font: normal normal 900 56px/62px Chronicle Display;
+    letter-spacing: 0px;
+    color: #FFFAFA;
+    opacity: 1;
+  }
+
+  .paragraf1Text p{
+    top: 370px;
+    left: 110px;
+    width: 407px;
+    height: 113px;
+    text-align: left;
+    font: normal normal normal 19px/28px Brandon Grotesque;
+    letter-spacing: 0px;
+    color: #FFFAFA;
+    opacity: 1;
+  }
+
+
+
+
+
+
+
+  .paragraf2{
+    background: transparent url('img/Mask\ Group\ 12.png') 0% 0% no-repeat padding-box;
+    min-height: 754px;
+    max-height: 754px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .paragraf2Text{
+    max-width: 590px;
+    margin-left: 40%;
+  }
+
+  .paragraf2Text h2{
+    text-align: left;
+    font: normal normal 900 36px/62px Chronicle Display;
+    letter-spacing: 0px;
+    color: #002D33;
+    opacity: 1;
+  }
+
+  .paragraf2Text h3{
+    text-transform: uppercase;
+    /* UI Properties */
+    text-align: left;
+    font: normal normal normal 14px/62px Brandon Grotesque;
+    letter-spacing: 2.1px;
+    color: #002D33;
+    text-transform: uppercase;
+    opacity: 1;
+    color: #004A4C;
+  }
+
+  .paragraf2Text p{
+    text-align: left;
+    font: normal normal normal 18px/28px Brandon Grotesque;
+    letter-spacing: 0px;
+    color: #002D33;
+    opacity: 1;
+  }
+
+  .paragraf2Text2{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    margin-top: 32px;
+  }
+
+  .paragraf2Text2 li{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    font: normal normal normal 18px/26px Brandon Grotesque;
+  }
+
+  .paragraf2Btn{
+    display: inline-block;
+    background: #004A4C;
+    text-decoration: none;
+    max-width: 160px;
+    color: white;
+    border-radius: 8px;
+    padding: 12.8px 32px 12.8px 32px;
+    margin-top: 32px;
+    text-transform: uppercase;
+    font: normal normal 900 13px/30px Brandon Grotesque;
+    letter-spacing: 1.95px;    
+    transition: 0.45s;
+  }
+  
+  .paragraf2Btn:hover{
+    background-color:#002D33;
+  }
+
+
+
+
+  .paragraf3{
+    position: sticky;
+    top: 45.24px;
+    overflow: hidden;
+    margin-top: 32px;
+   
+  }
+  
+ .paragraf3Text{
+   position: absolute;
+   top: 25%;
+   left: 50%;
+   transform: translate(-50%);
+   z-index: 5;
+ }
+
+ .paragraf3Text h2{
+  text-align: center;
+  font: normal normal 900 78px/82px Chronicle Display;
+  letter-spacing: -0.78px;
+  color: #FFFFFF;
+  opacity: 1;
+  margin-bottom: 16px;
+ }
+
+ .paragraf3Text h4{
+  text-align: center;
+  font: normal normal normal 16px/23px Brandon Grotesque;
+  letter-spacing: 2.4px;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  opacity: 1;
+  margin-bottom: 16px;
+ }
+
+ .paragraf3Images{
+   display: flex;
+   align-items: center;
+   position: relative;
+ }
+
+ .paragraf3Img {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 535px;
+    height: 415px;
+    flex-shrink: 0;
+    overflow: hidden;
+    margin: 1.5em 1em;
+    position: relative;
+    border-radius: 14px;
+    opacity: 1;
+}
+
+  .paragraf3Img img{
+    max-width: 100%;
+    height: 100%;
+    transition: 0.45s ease-in-out;
+  }
+
+  .paragraf3Img img:hover{
+    transform: scale(1.1);
+  }
+
+  .paragraf3Img p{
+    position: absolute;
+    bottom: 32px;
+    left: 40%;
+    color: white;
+    font-size: 25.6px;
+    z-index: 99;
+    font: normal normal normal 22px/32px Brandon Grotesque;
+    opacity: 0;
+    transition: 0.45s ease-in-out;
+  }
+
+  .paragraf3Img:hover p{
+    opacity: 1;
+  }
+
+
+
+
+  .paragraf4{
+    margin-top: 80px;
+    margin-bottom: 16px;
+    display: flex;
+    justify-content: space-between;
+    margin-inline: 64px;
+    align-items: center;
+  }
+
+  .paragraf4Images{
+    display: flex;
+    position: relative;
+  }
+
+  .paragraf4Images img{
+
+    min-height: 180px;
+    min-width: 180px;
+    width: 400px;
+    height: 400px;
+    width: 100%;
+    height: auto;
+    transition: 0.25s;
+  }
+
+  .paragraf4Images img:hover{
+  transform: translate(15%);
+  }
+
+  .paragraf4Img{
+    display: flex;
+    align-items: flex-end;
+    position: relative;
+    justify-content: space-between;
+    
+  }
+
+  .paragraf4Text{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    margin-right: 128px;
+    bottom: 8px;
+    opacity: 0;
+    transition: 0.25s;
+    z-index: 99;
+  
+  }
+
+  .paragraf4Img:hover .paragraf4Text{
+    opacity: 1;
+  }
+
+  .paragraf4Text h2{
+    font: normal normal 900 18px/33px Brandon Grotesque;
+    letter-spacing: 1.95px;
+    font-weight: bold;
+  }
+
+  .paragraf4Text p{
+    text-transform: uppercase;
+    font: normal normal 12px/30px Brandon Grotesque;
+    font-weight: bold;
+  }
+
+  .paragraf4Btn {
+    padding: 0 0 0 0.9em;
+    border-radius: 6px;
+    border: 1px solid #002D33;
+    border-radius: 6px;
+    opacity: 1;
+    font-size: 16px;
+    color: #004A4C;
+    cursor: pointer;
+    display: inline-flex;
+    justify-content: space-between;
+    font-weight: bold;
+    align-items: center;
+    background: unset;
+    outline: none;
+    width:  353.28px;
+    margin-bottom: 16px;
+  }
+  .paragraf4Btn span {
+    padding: 16px 14.4px;
+    border-left: 2px solid #004A4C;
+    margin-left: 8px;
+    display: grid;
+    place-items: center;
+    transition: .2s;
+  }
+
+  .paragraf4Title {
+    text-align: left;
+    font: normal normal 900 36px/44px Chronicle Display;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;  font-size: 32px;
+    margin-bottom: 16px;
+    min-width: 288px;
+    margin-left: 25px;
+  }
+
+  .paragraf4 button:hover img {
+    transform: translateX(3px);
+  }
+
+
+
+
+
+
+
+
+
+
+
+.paragraf5{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #F2F2F2;
+  min-height: 400px;
+  gap: 16px;
+}
+
+.paragraf5Text{
+  max-width: 700px;
+  text-align: center;
+  line-height: 6;
+}
+
+.paragraf5Review:first-child{
+  display: block;
+}
+.paragraf5Review{
+  display: none;
+}
+
+.paragraf5 h2{
+  text-align: center;
+  font: normal normal normal 14px/62px Brandon Grotesque;
+  letter-spacing: 2.1px;
+  color: #002D33;
+  text-transform: uppercase;
+  opacity: 1;
+}
+
+.paragraf5Text p{
+  text-align: center;
+  font: normal normal bold 25px/42px Chronicle Display;
+  letter-spacing: 0px;
+  color: #002D33;
+  opacity: 1;
+}
+
+.paragraf5Text h5{
+  text-align: center;
+  font: normal normal medium 13px/62px Brandon Grotesque;
+  letter-spacing: 1.3px;
+  color: #002D33;
+  text-transform: uppercase;
+  opacity: 1;  
+  }
+  
+.paragraf5Options{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.paragraf5Options span{
+  margin-left: 8px;
+  width: 10px;
+  height: 11.2px;
+  border-radius: 50%;
+  background: transparent;
+  border: 1px solid #004A4C;
+  cursor: pointer;
+}
+
+.paragraf5Options span.active{
+  background: #004A4C;
+  border: 1px solid transparent;
+}
+
+
+
+
+
+
+
+  
+  .paragraf6{
+    height: 640px;
+    max-width: 1360px; 
+    margin: 160px auto !important; 
+    float: none !important; 
+    position: relative;
+  }
+
+  .paragraf6Container{
+    background: #DAE5E5;
+    width: 100%;
+    height: 560px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  
+  .paragraf6Items{
+    max-width: 490px;
+    width: 614.4px;
+    margin-right: 150px; 
+    margin-bottom: 50px;
+  }
+
+  .paragraf6Items h3{
+    text-align: left;
+    font: normal normal normal 14px/62px Brandon Grotesque;
+    letter-spacing: 2.1px;
+    color: #002D33;
+    text-transform: uppercase;
+    opacity: 1;
+  }
+
+  .paragraf6Items h2{
+    text-align: left;
+    font: normal normal 900 36px/44px Chronicle Display;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+  }
+
+  .paragraf6Items p{
+    text-align: left;
+    font: normal normal normal 18px/28px Brandon Grotesque;
+    letter-spacing: 0px;
+    color: #002D33;
+    opacity: 1;
+    margin-top: 10px;
+  }
+  
+  .paragraf6Texts img{
+    max-width: 48px;
+    max-height:48px;
+    margin-left: 35px;
+  }
+
+  .paragraf6Texts{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    margin-top: 32px;
+    text-align: left;
+    font: normal normal normal 18px/26px Brandon Grotesque;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+  }
+
+  .paragraf6Texts li{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    font: normal normal normal 18px/26px Brandon Grotesque;
+  }
+
+  .paragraf6Btn{
+    display: inline-block;
+    background: #004A4C;
+    padding: 12.8px 32px 12.8px 32px;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    position: absolute;
+    bottom: 3.32px;
+    text-transform: uppercase;
+    font: normal normal 900 13px/30px Brandon Grotesque;
+    letter-spacing: 1.95px;    
+    transition: 0.45s;
+    margin-left: 35px;
+    margin-bottom: 50px;
+
+  }
+
+  .paragraf6Btn:hover{
+    background-color: #002D33;
+  }
+
+  .paragraf6Img1{
+    position: absolute;
+    bottom: 12%;
+    max-width: 496px;
+    max-height: 600px;
+    width: 614.4px;
+    height: 100%;
+    max-height:100%
+  }
+  
+  .paragraf6Img2{
+    position: absolute;
+    bottom: 32px;
+    left: 30%;
+    max-width: 256px;
+    width: 307.2px;
+  }
+  
+
+
+
+
+
+
+  
+  
+  .paragraf7{
+    height: 754px;
+    position: relative;
+    max-width: 1360px; 
+    margin: 0px auto !important; 
+    float: none !important; 
+    
+  }
+
+  .paragraf7Video {
+    width: 100%;
+    height: 675px;
+    object-fit: cover;
+    position: absolute;
+    z-index: -1;
+    border-radius: 12px;
+  }
+
+  .paragraf7Text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 0.32px;
+    height: 754px;
+  }
+
+  .paragraf7Text h2{
+    text-align: center;
+    font: normal normal 900 36px/62px Chronicle Display;
+    letter-spacing: 0px;
+    color: #FFFAFA;
+    opacity: 1;
+  }
+
+  .paragraf7Text h3{
+    text-align: center;
+    font: normal normal normal 14px/62px Brandon Grotesque;
+    letter-spacing: 2.1px;
+    color: #FFFAFA;
+    text-transform: uppercase;
+    opacity: 1;
+    margin-top: 35px;
+  }
+  
+  .paragraf7Text p{
+    max-width:650px;
+    color: white;
+    line-height: 1.6;
+    font-size: 1.32px;
+    text-align: center;
+    font: normal normal normal 18px/28px Brandon Grotesque;
+    letter-spacing: 0px;
+    color: #FFFAFA;
+    opacity: 1;  }
+
+  .paragraf7Btn{
+    background-color: white;
+    text-decoration: none;
+    color: #004A4C;
+    text-transform: uppercase;
+    padding: 16px 32px 16px 32px;
+    border-radius: 4px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    font-weight: bold;
+    border-radius: 6px;
+    opacity: 1;
+    transition: 0.45s;
+    margin-top: 50px;
+    margin-bottom: 80px;
+  }
+
+
+
+
+
+
+  .paragraf8{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    overflow: hidden;
+  }
+
+  .paragraf8 h2{
+    text-align: center;
+    font: normal normal 900 36px/44px Chronicle Display;
+    letter-spacing: 0px;
+    color: #002D33;
+    opacity: 1;
+    line-height: 3;
+  }
+  .paragraf8 h2::first-letter{
+    font-weight: 100;
+  }
+
+  .paragraf8Images{
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    
+    -moz-transform: translateX(-100%);
+    -webkit-transform: translateX(-100%);
+    transform: translateX(-100%);
+    
+    -moz-animation: my-animation2 5s linear infinite;
+    -webkit-animation: my-animation2 5s linear infinite;
+    animation: my-animation2 15s linear infinite;
+
+  }
+
+  .paragraf8Images img{
+    min-width: 307.2px;
+    text-align: right;
+
+  }
+
+  .paragraf8Images img:nth-child(2n+2){
+    margin-top: 32px;
+  }
+
+  .paragraf8Images img:nth-child(2n+1){
+    margin-bottom: 32px;
+  }
+
+  .paragraf8Btn{
+      margin-left: auto;
+      margin-right: auto;
+      text-transform: uppercase;
+      text-decoration: none;
+      font: normal normal 900 36px/44px Chronicle Display;
+      font-weight: bold;
+      border: 2px solid #004A4C;
+      padding: 0 0 0 0.8em;
+      border-radius: 6px;
+      font-size: 16px;
+      color: #004A4C;
+      cursor: pointer;
+      display: inline-flex;
+      justify-content: space-between;
+      align-items: center;
+      background: unset;
+      outline: none;
+  }
+
+  .paragraf8Btn span {
+      padding: 16px 14.4px;
+      border-left: 2px solid #004A4C;
+      margin-left: 8px;
+      display: grid;
+      place-items: center; 
+      transition: 0.45s;
+  }
+
+  .paragraf8Btn span:hover{
+    background-color: #004A4C;
+  }
+
+  .paragraf8Btn span:hover img{
+    filter: brightness(0) invert(1);
+  }
+
+
+
+
+
+
+
+  footer{
+    margin-top: 256px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .paragraf9Container{
+    background-image: url("img/Biom_wipe_2.png");
+    background-size: contain;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+  }
+
+  .paragraf9{
+    position: absolute;
+    top:-160px;
+    background: #F2F2F2;
+    border-radius: 8px;
+    margin-inline: 96px ;
+    z-index: 1;
+    height: 304px;
+    width:85%;
+  }
+
+  .paragraf9Items{
+    display: flex;
+    flex-direction: column;
+    margin-left: 76.8px;
+    gap: 16px;
+    max-width: 450px;
+    width: 100%;
+  }
+
+  .paragraf9Items h2{
+    font-size: 32px;
+    font: normal normal 900 30px/38px Chronicle Display;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+    max-width: 310px;
+  }
+
+  .paragraf9Items p{
+    text-align: left;
+    font: normal normal normal 16px/26px Brandon Grotesque;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+    min-width: 110px;
+  }
+
+  .paragraf9Text{
+    position: relative;
+    display: flex;
+    align-items: center;
+  }
+
+  .paragraf9Text input{
+    border-radius: 4px;
+    outline: 0;
+    border: transparent;
+    padding: 16px 32px 16px 32px;
+    width: 100%;
+  }
+
+  ::placeholder {
+    font-size: 16px;
+    font-family:"Brandon Grotesque, Bold";
+  }
+
+  .paragraf9Text span{
+    position: absolute;
+    right: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    padding: 8px 11.2px ;
+    background-color: #004A4C;
+  }
+
+  .paragraf9Text span:hover{
+    background-color: #002D33;
+  }
+
+  .paragraf9Text span img:hover{
+    transform: translate(3px);
+  }
+
+  .paragraf9Text span img{
+    transition: 0.25s;
+    filter:  brightness(0) invert(1);
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  .navigationBottom{
+    background: #004A4C 0% 0% no-repeat;
+    opacity: 72%;
+    height: 384px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 76.8px;
+    gap: 32px;
+  }
+
+  .navigationBottomContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+    margin-top: 10%;
+  }
+
+  .navigationBottom hr{
+    margin-inline: 64px;
+  }
+
+  .navigationBottomItems{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 16px 48px; 
+  }
+
+  .navigationBottomText{
+    display: flex;
+    list-style: none;
+    gap: 48px;
+  }
+
+  .navigationBottomText a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.16px;
+    text-transform: uppercase;
+    font: normal normal bold 14px/20px Brandon Grotesque;
+    letter-spacing: 1.4px;  
+  }
+
+  .bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-inline: 48px;
+  }
+
+  .bottom ul{
+    display: flex;
+   
+  }
+
+  .bottom li{
+    margin: 16px;
+    font-size: 16px;
+    color: white;
+    font: normal normal normal 15px/22px Brandon Grotesque;  
+  }
+  
+  .bottomImages{
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    justify-content: center;
+    margin-right: 25px;
+  }
+
+  .bottomImg{
+    background-color: white;
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+  }
+
+  .bottomImg img{
+    display: block;
+    margin: auto;
+    margin-top: 4px;
+  }
+
+  #scroll-container {
+    height: 200px;
+    width: 700px;
+    transform: rotate(-90deg);
+    position: absolute ;
+    white-space: normal;
+    margin-right: 1350px;
+    overflow: hidden;
+  }
+ 
+  #scroll-text {
+    color:#F2F2F2;
+    font-size: 160px;
+    white-space: normal;
+
+     /* animation properties */
+    -moz-transform: translateX(-100%);
+    -webkit-transform: translateX(-100%);
+    transform: translateX(-100%);
+    
+    -moz-animation: my-animation2 5s linear infinite;
+    -webkit-animation: my-animation2 5s linear infinite;
+    animation: my-animation2 5s linear infinite;
+  }
+  
+
+  /* for Chrome */
+  @-webkit-keyframes my-animation {
+    from { -webkit-transform: translateX(-100%); }
+    to { -webkit-transform: translateX(100%); }
+  }
+  
+  @keyframes my-animation {
+    from {
+      -moz-transform: translateX(-100%);
+      -webkit-transform: translateX(-100%);
+      transform: translateX(-100%);
+    }
+    to {
+      -moz-transform: translateX(100%);
+      -webkit-transform: translateX(100%);
+      transform: translateX(100%);
+    }
+  }
+
+
+
+  @-webkit-keyframes my-animation2 {
+    from { -webkit-transform: translateX(-100%); }
+    to { -webkit-transform: translateX(100%); }
+  }
+  
+  @keyframes my-animation2 {
+    from {
+      -moz-transform: translateX(-100%);
+      -webkit-transform: translateX(-100%);
+      transform: translateX(-100%);
+    }
+    to {
+      -moz-transform: translateX(100%);
+      -webkit-transform: translateX(100%);
+      transform: translateX(100%);
+    }
+  }
